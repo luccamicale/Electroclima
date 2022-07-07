@@ -1,0 +1,200 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background-color: whitesmoke;
+    height: 90px;
+    width: 100%;
+}
+.enlace{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    position: absolute;
+    padding:  20px 50px;
+    color: rgb(53, 231, 53);
+    
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 5px;
+}    
+nav ul li a{
+    color: rgb(10, 10, 9);
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+ li a:hover{
+    background: rgb(179, 187, 173);
+    transition :  1s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: whitesmoke;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+#repuestos{
+   background-color: rgb(151, 156, 156);
+   margin: 1px;
+   padding: 23px;
+   width: 100%;
+   height: 20px;
+   text-transform: uppercase ;
+   position: absolute;
+   color: wheat;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   padding-top: 5px;
+   text-align: left;
+}
+.slider-frame{
+    width: 800px;
+    height: 400px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 7px;
+    border-color: antiquewhite;
+}
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide  15s infinite alternate linear;
+    
+}
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+.slider-frame img{
+    width: 100%;
+    
+}
+@keyframes slide{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+}
+
+.imagen{
+    background-color: rgb(238, 220, 220);
+    margin: 30px;
+    text-align: center;
+}
+#semana{
+    background-color: rgb(241, 241, 220);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+img{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    
+}
+.row{
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(75, 27, 27);
+    background-color: antiquewhite;
+}
+.column{
+    flex: 33%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.column img{
+    margin-top: 5px;
+    width: 420px;
+    height: 250px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(75, 27, 27);
+}
+#contacto{
+    font-size: 20px;
+    text-align: center;
+    color: green;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 0;
+
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.in-flex{
+    flex: 1;
+    padding: 70px;
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 35px;
+    background-color: whitesmoke;
+    margin: 30px;
+    font-size: 20px;
+    color: greenyellow;
+}
+.in-flex div{
+    padding: 25px;
+    background-color: whitesmoke;
+    margin: 25px;
+}
+#elec{
+    font-size: 25px;
+    color: rgb(13, 14, 13);
+    text-align: center;
+}
+#contac{
+    font-size: 10px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#contac2{
+    font-size: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#elec1{
+    font-size: 40px;
+    color: rgb(4, 214, 4);
+    text-align: center;
+}
