@@ -9,7 +9,7 @@ body{
     box-sizing: border-box;
 }
 nav{
-    background-color: whitesmoke;
+    background-color: rgb(78, 78, 78);
     height: 90px;
     width: 100%;
 }
@@ -18,7 +18,7 @@ nav{
     font-size: 23px;
     position: absolute;
     padding:  20px 50px;
-    color: rgb(53, 231, 53);
+    color: rgb(19, 250, 19);
     
 }
 nav ul{
@@ -31,14 +31,14 @@ nav ul li{
     margin: 0 5px;
 }    
 nav ul li a{
-    color: rgb(10, 10, 9);
+    color: rgb(188, 211, 183);
     font-size: 18px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
  li a:hover{
-    background: rgb(179, 187, 173);
+    background: rgb(90, 194, 10);
     transition :  1s;
 }
 .checkbtn{
@@ -197,4 +197,8 @@ img{
     font-size: 40px;
     color: rgb(4, 214, 4);
     text-align: center;
+}
+.brand img{
+    width: 75px;
+    height: 75px;
 }

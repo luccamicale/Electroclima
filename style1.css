@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#fondo{
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 0%;
+
+    transform: translateX(-50%);transform: translateY(-50%);
+    z-index: -1;
+    -webkit-filter: brightness(100%);
+    opacity: 0.5;
+}
+.logo{
+    color: greenyellow;
+    text-decoration: none;
+    font-size: 40px;
+    padding-left: 33px;
+    line-height: 80px;
+}
+.header{
+    background-color: rgb(28, 46, 46);
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    justify-content: space-between;
+    display: flex;
+    overflow: hidden;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 30px;
+    line-height: 80px;
+    text-transform: uppercase;
+    overflow: hidden;
+    color: whitesmoke;
+}
+#icono{
+    line-height: 80px;
+    font-size: 30px;
+    color: white;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.nav-menu-link:hover{
+    background-color: greenyellow;
+    transition: 0.9s;
+}
+.galeria{
+    margin: 40px 60px;
+    float: left;
+    background-color: whitesmoke;
+    padding: auto;
+    justify-content: space-between;
+    border-width: 2px;
+    border-color: rgb(9, 235, 9);
+    border-style: solid;
+}
+.edit{
+    width: 320px;
+    height: 310px;
+}
+
+.pie{
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2x 2px 5px green;
+    font-size: 22px;
+    border-width: 1px;
+    border-color: green;
+    border-style: solid;
+}
+#agregar{
+    color: rgb(251, 255, 251);
+    justify-items: right;
+    background-color: rgb(51, 255, 51);
+    padding-top: 15px;
+    padding: 10px;
+
+}
+h2{
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+    
+    
+}
+#detalles{
+    color: whitesmoke;
+    background-color: rgb(96, 174, 252);
+    margin-top: 10px;
+    
+}
+.ventana{
+    background-color: rgb(224, 224, 224);
+    width: 30%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 44px;
+    min-height: 450px;
+    min-width: 600px;
+    border-radius: 22px;
+    position: fixed;
+    left: 28%;
+    top: 25%;
+    opacity: 0.9;
+    display: none;
+}
+#cerrar{
+    
+}
+.container{
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    width: 6.6rem;
+    height: 6.6;
+    z-index: -1;
+}
+.container-subir{
+    width: 0rem;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
